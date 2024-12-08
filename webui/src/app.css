@@ -1,0 +1,12 @@
+
+.hide {
+    display: none;
+}
+
+.show-hover:hover {
+    cursor: pointer;
+}
+.show-hover:hover > .hide {
+    display: inline-block;
+    transition: 0.5s ease-in-out all;
+}
